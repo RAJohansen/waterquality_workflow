@@ -5,12 +5,12 @@
 
 # Author: Richard A. Johansen
 # Date: December 6th 2018
-# Source: https://github.com/RAJohansen/USACE_WQ
-# Citation: Richard A. Johansen, , (2018), GitHub repository, https://github.com/RAJohansen/USACE_WQ
+# Source: https://github.com/RAJohansen/waterquality_workflow
+# 
 
-#Required R Packages
+### Initial Requirements and R Packages ----------------------------------------
 #Packages must be installed using install.packages("Package Name") or 
-# devtools::install_github, if this is the first time you are using these packages.
+# devtools::install_github("Package Name"), if this is the first time you are using these packages.
 library(tidyverse)
 library(raster)
 library(waterquality)
@@ -36,7 +36,7 @@ sen2cor(".../S2A_MSIL1C_20160808T162342_N0204_R040_T16SGJ_20160808T162611.SAFE")
 
 #Image Directory Folder
 Image_Directory = "C:/temp/S2A_MSIL2A_20160808T162342_N0204_R040_T16SGJ_20160808T162611.SAFE/GRANULE/L2A_T16SGJ_A005900_20160808T162611/IMG_DATA/R20m"
-# Extacts all raster files from Image Directory with extention .jp2
+# Extracts all raster files from Image Directory with extention .jp2
 Rasters = dir(Image_Directory, pattern = "*.jp2$", full.names = TRUE)
 
 #Import Shapefile of Area of Interest
