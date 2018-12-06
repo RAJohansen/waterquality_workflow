@@ -6,7 +6,7 @@
 # Author: Richard A. Johansen
 # Date: December 6th 2018
 # Source: https://github.com/RAJohansen/waterquality_workflow
-# 
+# Citation: Richard A. Johansen. (2018). RAJohansen/waterquality_workflow: waterquality_workflow: A case study and workflow for detecting and quantifying cyanobacterial harmful algal blooms (CHABs) from Sentinel-2 Imagery (Version v.0.2). Zenodo. http://doi.org/10.5281/zenodo.2003619
 
 ### Initial Requirements and R Packages ----------------------------------------
 #Packages must be installed using install.packages("Package Name") or 
