@@ -1,8 +1,4 @@
-#################################################
-### Detecting and Quantifying Water Quality   ###
-### Using Satellite Remote Sensing Algorithms ###
-#################################################
-
+#Title: waterquality_workflow: A case study and workflow for detecting and quantifying cyanobacterial harmful algal blooms (CHABs) from Sentinel-2 Imagery
 # Author: Richard A. Johansen
 # Date: December 6th 2018
 # Source: https://github.com/RAJohansen/waterquality_workflow
